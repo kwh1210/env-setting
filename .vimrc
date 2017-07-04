@@ -4,11 +4,14 @@ syntax on
 
 colorscheme molokai
 
+set mouse=n
 set ts=2 sw=2 et
 
 let g:indent_guides_enable_on_vim_startup = 1
 let g:indent_guides_start_level=2
 let g:indent_guides_guide_size=1
+
+
 
 
 " Vundler crap "
@@ -27,6 +30,8 @@ Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'nathanaelkane/vim-indent-guides'
+Plugin 'scrooloose/nerdtree'
+
 
 
 " All of your Plugins must be added before the following line
