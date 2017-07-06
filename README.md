@@ -3,10 +3,11 @@
  `https://github.com/robbyrussell/oh-my-zsh`
  
  Instruction : 
- 
- `sudo apt-get install zsh`
- `chsh -s $(which zsh)` unless you are in LDAP or something
- `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
+ ```
+ sudo apt-get install zsh
+ chsh -s $(which zsh)` unless you are in LDAP or something
+ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+ ```
  
  
  If need to install fonts-powerline :
