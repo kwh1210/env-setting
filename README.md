@@ -1,5 +1,9 @@
 # ZSH - OH MY ZSH  
- refer `https://github.com/robbyrussell/oh-my-zsh`
+ refer 
+ `https://github.com/robbyrussell/oh-my-zsh`
+ 
+ Instruction : 
+ 
  `sudo apt-get install zsh`
  `chsh -s $(which zsh)` unless you are in LDAP or something
  `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
