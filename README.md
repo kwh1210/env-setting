@@ -1,7 +1,12 @@
-# ZSH - OH MY ZSH :
- `https://github.com/robbyrussell/oh-my-zsh`
-  If need to install fonts-powerline :
-    `sudo apt-get install fonts-powerline`
+# ZSH - OH MY ZSH  
+ refer `https://github.com/robbyrussell/oh-my-zsh`
+ `sudo apt-get install zsh`
+ `chsh -s $(which zsh)` unless you are in LDAP or something
+ `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
+ 
+ 
+ If need to install fonts-powerline :
+ `sudo apt-get install fonts-powerline`
 
 # VIM - Vundle :
  `git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
