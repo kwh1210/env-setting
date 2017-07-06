@@ -5,7 +5,7 @@
 
 # VIM - Vundle :
  `https://github.com/VundleVim/Vundle.vim`
- 
+
 # VIM - molokai colorscheme :
  `https://github.com/tomasr/molokai.git`
 
@@ -17,10 +17,7 @@ clone repo to ~/.dotfiles folder:
 cd ~
 git clone https://github.com/kwh1210/env-setting.git .dotfiles
 ```
-create symbolic links to config files
+copy config files by running shell script
 ```
-ln -s .dotfiles/vimrc .vimrc
-ln -s .dotfiles/zshrc-oh-my-zsh .zshrc
-ln -s .dotfiles/vim .vim
-ln -s .dotfiles/gitconfig .gitconfig
+./install.sh
 ```
